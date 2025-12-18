@@ -1,3 +1,9 @@
+# CPU
+```
+echo performance | sudo tee /sys/devices/system/cpu/cpu*/cpufreq/scaling_governor
+echo powersave | sudo tee /sys/devices/system/cpu/cpu*/cpufreq/scaling_governor
+```
+
 # Disable xdg dirs
 `/etc/xdg/user-dirs.conf enabled=False`
 
