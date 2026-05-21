@@ -4,6 +4,11 @@ echo performance | sudo tee /sys/devices/system/cpu/cpu*/cpufreq/scaling_governo
 echo powersave | sudo tee /sys/devices/system/cpu/cpu*/cpufreq/scaling_governor
 ```
 
+# Ranger
+.config/ranger/rc.conf
+`set preview_images true`
+pacins ueberzugpp
+
 # Disable xdg dirs
 `/etc/xdg/user-dirs.conf enabled=False`
 
