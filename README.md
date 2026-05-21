@@ -6,7 +6,7 @@ echo powersave | sudo tee /sys/devices/system/cpu/cpu*/cpufreq/scaling_governor
 
 # Ranger
 .config/ranger/rc.conf
-`set preview_images true`
+```set preview_images true```
 pacins ueberzugpp
 
 # Disable xdg dirs
