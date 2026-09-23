@@ -17,6 +17,9 @@ pacins ueberzugpp
 # Linux
 `git clone --depth 1 https://git.kernel.org/pub/scm/linux/kernel/git/torvalds/linux.git`
 
+inherit new groups without relog
+`su - $USER`
+
 # WSL
 Open powershell as administrator
 
